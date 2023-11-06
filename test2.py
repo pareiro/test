@@ -3,7 +3,7 @@ import time
 import sys
 import os
 
-# Получаем URL из переменной среды
+# Полчаем URL из переменной среды
 url = os.environ.get("WEBSITE_URL")
 
 if url is None:
